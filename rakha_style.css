@@ -1,0 +1,421 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: space-around;
+    width: 1100px;
+    align-items: center;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.nav-bar img {
+    width: 186px;
+    display: inline-flex;
+    padding: 10px;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.nav-bar-value {
+    display: flex;
+    align-items: center;
+    gap: 31px;
+    width: 407px;
+    justify-content: space-around;
+}
+
+.nav-bar-value a{
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    gap: 10px;
+    text-decoration: none;
+
+    color: var(--first-text, #20262A);
+    /* Link */
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 450;
+    line-height: 20px; /* 111.111% */
+    letter-spacing: 0.2px;
+}
+
+.nav-bar button{
+    display: inline-flex;
+    height: 52px;
+    padding: 20px 36px;
+    align-items: center;
+    flex-shrink: 0;
+
+    border-radius: 85px;
+    border: 1px solid var(--primary, #00B6F0);
+
+    color: var(--primary, #00B6F0);
+
+    /* Button */
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px; /* 111.111% */
+    letter-spacing: 0.2px;
+
+    background-color: white;
+
+}
+
+.banner {
+    display: flex;
+    padding: 39px 0px;
+    flex-direction: column;
+    align-items: center;
+    gap: 17px;
+    align-self: stretch;
+    margin-top: 90px;
+    margin-bottom: 45px;
+}
+
+.banner h1 {
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    gap: 10px;
+
+    color: var(--secondary, #112D57);
+    text-align: center;
+    /* Headline */
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 78px; /* 108.333% */
+    letter-spacing: 0.2px;
+}
+
+.banner h2 {
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    gap: 10px;
+
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+
+    color: var(--second-text, #5C5C5C);
+    text-align: center;
+    /* Sub Heading */
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 450;
+    line-height: 38px; /* 158.333% */
+    letter-spacing: 0.2px;
+}
+
+.button-banner {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    width: 411px;
+    margin: auto;
+}
+
+.button-banner button{
+    display: flex;
+    height: 52px;
+    padding: 20px 36px;
+    align-items: center;
+
+    border-radius: 85px;
+    background: var(--primary, #00B6F0);
+
+    border: none;
+
+    color: var(--light-text, #FFF);
+    /* Button */
+    font-family: Circular Std;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px; /* 111.111% */
+    letter-spacing: 0.2px;
+}
+
+.button-banner button:nth-child(2){
+    border-radius: 85px;
+    background: var(--light-background, #FFF);
+
+    color: var(--first-text, #20262A);
+}
+
+.banner2 {
+    /* display: flex; */
+    flex-direction: column;
+    align-items: center;
+    gap: 59px;
+    width: 634px;
+    margin: auto;
+    margin-top:50px;
+}
+
+.banner2 h1 {
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    gap: 10px;
+    flex-direction: column;
+    
+}
+
+.banner2-title {
+    color: var(--secondary, #F3CD03);
+    /* Title */
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 450;
+    line-height: 42px; /* 116.667% */
+    letter-spacing: 0.1px;
+}
+
+.banner2-title2 {
+    color: var(--first-text, #20262A);
+    text-align: center;
+
+    /* Second Headline */
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 65px; /* 116.071% */
+    letter-spacing: 0.2px;
+}
+
+.banner2-title3 {
+    color: var(--second-text, #5C5C5C);
+    text-align: center;
+
+    /* Sub Heading */
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 450;
+    line-height: 38px; /* 158.333% */
+    letter-spacing: 0.2px;
+}
+
+.banner2-button {
+    display: flex;
+    align-items: center;
+    gap: 13px;
+    margin: auto;
+    margin-top: 59px;
+    width: 445px;
+    padding-left: 42.5px;
+}
+
+.banner2-button  button{
+    display: flex;
+    height: 52px;
+    padding: 20px 40px;
+    align-items: center;
+
+    border-radius: 85px;
+    background: var(--primary, #00B6F0);
+    
+    border: none;
+
+    color: var(--light-text, #FFF);
+    /* Button */
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px; /* 111.111% */
+    letter-spacing: 0.2px;
+}
+
+.banner2-button button:nth-child(2){
+    border-radius: 85px;
+    border: 2px solid var(--primary, #00B6F0);
+    background: var(--light-background, #FFF);
+
+    color: var(--primary, #00B6F0);
+
+    /* Button */
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px; /* 111.111% */
+    letter-spacing: 0.2px;
+}
+
+.pricing-banner-background {
+    color: white;
+    margin-top: 50px;
+    background: var(--dark-background, #182333);
+
+    padding: 100px 20px;
+}
+
+.pricing-banner {
+    display: flex;
+    gap: 167px;
+    /* align-self: stretch; */
+    background: var(--dark-background, #182333);
+    justify-content: space-around;
+
+    /* tambahkan width */
+    width: 881px;
+    margin:auto;
+}
+
+.pricing-desc {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.pricing-desc h1 {
+    display: flex;
+    padding: 10px;
+    gap: 10px;
+
+    color: var(--light-text, #FFF);
+
+    /* Second Headline */
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 65px; /* 116.071% */
+    letter-spacing: 0.2px;
+}
+
+.pricing-desc p {
+    display: flex;
+    padding: 10px;
+    gap: 10px;
+
+    color: var(--light-text, #FFF);
+
+    /* Paragraphe */
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 450;
+    line-height: 30px; /* 157.895% */
+    letter-spacing: 0.2px;
+}
+
+.pricing-price {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.pricing-price h1 {
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    gap: 10px;
+
+    color: var(--light-text, #FFF);
+
+    /* Subtitle */
+    font-family: Circular Std;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 450;
+    line-height: 28px; /* 155.556% */
+    letter-spacing: 0.1px;
+}
+
+.pricing-price-price {
+    display: flex;
+    align-items: center;
+}
+
+.pricing-price p {
+    display: flex;
+    padding: 20px 10px;
+    align-items: center;
+    gap: 10px;
+
+    color: var(--light-text, #FFF);
+
+    /* Paragraphe */
+    font-family: Circular Std;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 450;
+    line-height: 30px; /* 157.895% */
+    letter-spacing: 0.2px;
+}
+
+.pricing-price-price h1 {
+    color: var(--secondary, #F3CD03);
+
+    /* Headline */
+    font-family: Circular Std;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 78px; /* 108.333% */
+    letter-spacing: 0.2px;
+}
+
+.pricing-price-price p {
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    gap: 10px;
+
+    color: var(--light-text, #FFF);
+
+    /* Sub Heading */
+    font-family: Circular Std;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 450;
+    line-height: 38px; /* 158.333% */
+    letter-spacing: 0.2px;
+}
+
+.pricing-price button {
+    display: flex;
+    height: 52px;
+    padding: 0px 38px;
+    align-items: center;
+
+    border-radius: 85px;
+    border: none;
+    background: var(--primary, #00B6F0);
+
+    color: var(--light-text, #FFF);
+
+    /* Button */
+    font-family: Circular Std;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px; /* 111.111% */
+    letter-spacing: 0.2px;
+}
+
+

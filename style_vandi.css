@@ -1,0 +1,162 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.container-navbar{
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    width: 1100px;
+    margin: auto;
+}
+
+.container-menu{
+    display: flex;
+    justify-content: space-evenly;
+    width: 407px;
+}
+
+.container-menu a{
+    text-decoration: none;
+    color: black;
+    font-weight: 450;
+
+}
+
+.container-button button{
+    display: inline-flex;
+    padding: 10px 30px;
+    align-items: center;
+    border-radius: 85px;
+    background-color: white;
+    border: 1px solid #00B6F0;
+    color: #00B6F0;
+}
+
+
+.container{
+    text-align: center;
+    width: 634px;
+    margin: auto;
+}
+
+.container-text h5{
+    font-size: 36px;
+    font-weight: 450px;
+    color: #F3CD03;
+    padding-top: 20px;
+}
+
+.container-text h1{
+    font-size: 56px;
+    font-weight: 450px;
+    color: #20262A;
+    padding-top: 20px;
+}
+
+.container-text p{
+    font-size: 24px;
+    font-weight: 100px;
+    color: #5C5C5C; 
+    padding-top: 20px;
+    line-height: 35px;
+}
+
+.container-button2{
+    padding-top: 30px;
+}
+
+.container-button2 .btn1 {
+    padding: 10px 20px;
+    border-radius: 85px;
+    background-color:#00B6F0 ;
+    border: 1px solid #00B6F0;
+    color: white;
+    margin-right: 13px;
+}
+
+.container-button2 .btn2 {
+    padding: 10px 30px;
+    border-radius: 85px;
+    background-color:white ;
+    border: 1px solid #00B6F0;
+    color: #00B6F0;
+}
+
+.container-bg{
+    width: 1282px;
+    margin: auto;
+    padding: 100px 20px;
+    background-color: #182333;
+    color: white;
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.container-content{
+    display: flex;
+    justify-content: space-evenly;
+    width: 881px;
+    margin: auto;
+}
+
+.container-content1 h1{
+    padding-bottom: 10px;
+    font-size: 45px;
+}
+
+.container-content1 p{
+    line-height: 25px;
+}
+
+.container-content2 h1{
+    display: flex;
+    font-size: 16px;
+    font-weight: normal;
+}
+
+.container-content2 button{
+    display: flex;
+    padding: 10px 38px;
+    margin-top: 20px;
+    border-radius: 85px;
+    background-color:#00B6F0;
+    border: 1px solid #00B6F0;
+    color: white;
+    margin-right: 13px; 
+}
+
+.container-content2 p{
+    line-height: 25px;
+}
+
+.container-content3{
+    display: flex;
+    align-items: center;
+}
+
+.container-content3 h1{
+    font-size: 50px;
+    font-weight: 900;
+    color:#F3CD03
+}
+
+.container-content3 p{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    font-weight: 450;
+}
+
+
+
+    
+
+
+
